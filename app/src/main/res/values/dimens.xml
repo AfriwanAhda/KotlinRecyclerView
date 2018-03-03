@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="title_size">17dp</dimen>
+</resources>

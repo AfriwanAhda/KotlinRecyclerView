@@ -18,7 +18,7 @@ open class MainRecyclerAdapter(var datas: ArrayList<String>): RecyclerView.Adapt
     override fun onBindViewHolder(holder: ViewHolder?, position: Int) {
         holder!!.itemView.item_main_text.text = datas.get(position)
         holder.itemView.setOnClickListener({ v -> clickListener?.onClick(position)})
-        Glide.with(context).load("https://lh3.googleusercontent.com/qFifmzQxsukNo0DfJiH2SlBNtYOL3EZYU6uYmN1M0IzASF4EiREZt3hjaUAb6lo2UaQ=w300").into(holder.itemView.item_main_img)
+        Glide.with(context).load("https://lh3.googleusercontent.com/WH47mgc9FxvwJpicIhji4f5m5wara6ySgjvtsd-MHwAELp3_sP-wXl7h44crFsSbnF6K=w300").into(holder.itemView.item_main_img)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

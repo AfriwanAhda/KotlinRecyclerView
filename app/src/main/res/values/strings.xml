@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">KotlinRecyclerView</string>
-    <string name="wazma">Wazma</string>
+    <string name="title">Lacak Resi</string>
 </resources>

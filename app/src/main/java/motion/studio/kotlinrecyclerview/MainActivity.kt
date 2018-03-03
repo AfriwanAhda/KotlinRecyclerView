@@ -1,7 +1,6 @@
 package motion.studio.kotlinrecyclerview
 
 import android.app.Activity
-import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -24,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         adapter.setOnClickListener {
             try {
                 toast("Position " + (it+1) + " Clicked")
-                var playstoreuri: Uri = Uri.parse("https://play.google.com/store/apps/details?id=motion.studio.jadwalshalat&hl=in")
+                var playstoreuri: Uri = Uri.parse("https://play.google.com/store/apps/details?id=motion.studio.lacakresi&hl=in")
                 var playstoreIntent: Intent = Intent(Intent.ACTION_VIEW, playstoreuri)
                 startActivity(playstoreIntent)
             } catch (exp:Exception) {
