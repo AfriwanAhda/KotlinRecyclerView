@@ -4,7 +4,7 @@
 
 # Description
 
-Use Kotlin to make :
+Use Kotlin Programming Language to make :
 1. RecyclerView List;
 2. Effective toast;
 3. Load image url with Glide;
